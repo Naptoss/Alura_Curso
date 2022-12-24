@@ -9,3 +9,13 @@ console.log(`Destinos Possiveis: ${salvador}, ${saoPaulo}, ${rioDeJaneiro} `)
 const destinos = ["Paraiba ", "Recife ", "Natal ", "Rio de janeiro "]
 console.log(`Destinos possiveis: ${destinos}`)
 // Uma forma rapida e limpa de se realizar um codigo simples
+
+const listaDeDestinos = new Array(
+            `Salvador`,
+            `Rio de Janeiro`,
+            `São Paulo`
+)
+listaDeDestinos.push("Recife")
+    // Usando a função push para adicionnar mais uma cidade na lista
+
+console.log("Lista de destinos:",listaDeDestinos)
