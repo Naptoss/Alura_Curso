@@ -1,17 +1,7 @@
-const primeiroNome= "Antonio" 
-const sobrenome = "Gabinio"
-let idade // Declarando uma variavel
-idade = 26 //registrando um valor a essa variavel
-
-console.log(primeiroNome, sobrenome)
-
-console.log(`Meu nome é ${primeiroNome} ${sobrenome}`)
-
-let contador = 0
-contador = contador +1
-
-console.log(contador)
+console.log(`Trabalhando com listas`)
+const salvador = `Salvador`
+const saoPaulo = `São Paulo`
+const rioDeJaneiro = `Rio de Janeiro`
 
 
-const nomeCompleto = primeiroNome + sobrenome
-console.log(nomeCompleto) 
+console.log(`DDestinos Possiveis: ${salvador}, ${saoPaulo}, ${rioDeJaneiro} `)
