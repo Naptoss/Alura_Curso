@@ -23,10 +23,14 @@ while(contador<3){
         console.log("Destino existe")
         destinoExiste = true
         break
-
     }
     contador += 1
-
 }
 
 console.log("Destino existe:", destinoExiste)
+
+if(podeComprar && destinoExiste){
+    console.log("Boa viagem")
+} else{
+    console.log("Desculpe tivemos um erro")
+}
